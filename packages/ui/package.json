@@ -3,10 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+    "./Appbar":"./src/Appbar.tsx",
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
+    "./code": "./src/code.tsx",
+    "./centre":"./src/centre.tsx",
+    "./textInput":"./src/textInput.tsx",
+    "./select":"./src/select.tsx"  },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
